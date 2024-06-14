@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #006064;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    background-color: #004d40;
+    transition: 0.3s;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: url('aeroplane3.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 150px 20px;
+    position: relative;
+}
+
+.hero {
+    background-color: rgba(0, 96, 100, 0.6);
+    padding: 50px;
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 3.5em;
+}
+
+.hero p {
+    font-size: 1.7em;
+    margin: 10px 0;
+    color: #b7bcbb;
+}
+
+.btn {
+    background-color: #ffd600;
+    color: #006064;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffab00;
+}
+
+/* Sections */
+.container {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    color: #006064;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    color: #004d40;
+}
+
+.course {
+    background-color: #e0f2f1;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #006064;
+}
+
+.course h3 {
+    color: #004d40;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Contact */
+#contact p {
+    font-size: 1.2em;
+    color: #004d40;
+}
+
+/* Footer */
+footer {
+    background-color: #04969b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 1.1em;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    header {
+        padding: 100px 20px;
+    }
+
+    .hero {
+        padding: 30px;
+    }
+
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .course {
+        margin: 10px 0;
+    }
+}
