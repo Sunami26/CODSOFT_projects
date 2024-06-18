@@ -1,0 +1,152 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5e1; /* Light beige background */
+    color: #4b3832; /* Dark brown text */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #bfae95; /* Slightly darker beige background */
+    color: #4b3832; /* Dark brown text */
+    text-align: center;
+    padding: 2rem 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3rem; /* Increase header font size */
+}
+
+header p {
+    margin: 0;
+    font-size: 1.4rem; /* Increase paragraph font size */
+}
+
+.index {
+    background-color: #f0e9dd; /* Lighter beige background */
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.index ul {
+    list-style: none;
+    padding: 0;
+}
+
+.index li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.index a {
+    color: #4b3832; /* Dark brown text */
+    text-decoration: none;
+    font-size: 1.2rem; /* Font size for index links */
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.index a:hover {
+    background-color: #e0dcd4; /* Light beige hover color */
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    background-color: #fff8e1; /* Light background for sections */
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem; /* Increase section heading font size */
+}
+
+section p {
+    font-size: 1.2rem; /* Increase paragraph font size */
+}
+
+#about img {
+    border-radius: 50%;
+    width: 200px; /* Increased width */
+    height: 200px; /* Increased height */
+    margin-bottom: 1rem;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+#skills li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#skills li img {
+    width: 100px; /* Set a fixed width for the images */
+    height: 100px; /* Set a fixed height for the images */
+    object-fit: cover; /* Maintain aspect ratio and cover the space */
+    border-radius: 50%; /* Make the images circular */
+    background-color: #fff; /* Background color behind images */
+    padding: 10px; /* Padding around each image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+
+
+#projects .project {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#projects .project img {
+    width: 400px; /* Fixed width for project images */
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 8px;
+}
+
+#projects h3 {
+    margin-top: 0;
+    font-size: 2rem; /* Increase project title font size */
+    color: #4b3832; /* Dark brown text */
+}
+
+#resume a {
+    color: #fff8e1; /* Light text */
+    text-decoration: none;
+    background-color: #4b3832; /* Dark brown background */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1rem;
+    transition: background-color 0.3s;
+}
+
+#resume a:hover {
+    background-color: #3a2e2a; /* Slightly darker brown for hover */
+}
+
+#contact p {
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #bfae95; /* Slightly darker beige background */
+    color: #4b3832; /* Dark brown text */
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+    margin-top: 2rem;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
